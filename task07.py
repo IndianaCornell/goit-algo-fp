@@ -19,7 +19,7 @@ def plot_probabilities(probabilities):
     probs = list(probabilities.values())
     
     plt.figure(figsize=(10, 6))
-    plt.bar(sums, probs, color='skyblue')
+    plt.bar(sums, probs, color='red')
     plt.xlabel('Сума')
     plt.ylabel('Ймовірність')
     plt.title('Ймовірність кожної суми при киданні двох кубиків')
